@@ -4,6 +4,9 @@ An extension for chrome browser to automate the process of importing all your Re
 
 I wrote this extension for a question at [apple.stackexchange.com](http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper)
 
+Download extension from [/extension](https://github.com/palaniraja/RIL2Insta/tree/master/extension)
+
+
 ##How to use
 
 * Login to your [readitlaterlist.com](http://readitlaterlist.com/) in a new tab.
@@ -12,6 +15,7 @@ I wrote this extension for a question at [apple.stackexchange.com](http://apple.
 * Your credentials are not saved anywhere by this utility.
 
 
+***
 ###License
 
 Copyright 2011 Palaniraja
