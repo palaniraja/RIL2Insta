@@ -1,0 +1,29 @@
+#RIL2Insta - Read it later to Instapaper
+
+An extension for chrome browser to automate the process of importing all your Read it Later to Instapaper. 
+
+I wrote this extension for a question at [apple.stackexchange.com](http://apple.stackexchange.com/questions/17229/is-there-a-way-i-can-import-readitlaters-exported-html-file-into-my-instapaper)
+
+##How to use
+
+* Login to your [readitlaterlist.com](http://readitlaterlist.com/) in a new tab.
+* Goto [http://readitlaterlist.com/export/](http://readitlaterlist.com/export/) to export all your links
+* Your Instapaper credentials are used to import the links over https (secured).
+* Your credentials are not saved anywhere by this utility.
+
+
+###License
+
+Copyright 2011 Palaniraja
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.

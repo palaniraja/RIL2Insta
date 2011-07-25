@@ -1,0 +1,23 @@
+{
+  "name": "RIL2Insta",
+  "version": "0.2",
+  "description": "Extension to import all your Read it later links to Instapaper. All you need is exported links from readitlater and your Instapaper credentials.",
+  "permissions": [
+	"https://www.instapaper.com/*"
+  ],
+  "icons": {
+    "48" : "icon_48.png"
+  },
+  "options_page": "options.html",
+  "background_page": "background.html",
+  "homepage_url": "https://github.com/palaniraja",
+  "browser_action": {
+    "default_title": "RIL2Insta - Read It Later to Instapaper"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js" : ["contentscript.js"]
+    }
+  ]
+}

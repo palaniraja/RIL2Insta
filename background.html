@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+ 
+    chrome.browserAction.setIcon({path:"icon_48.png"});
+
+	chrome.browserAction.onClicked.addListener(function(tab) {
+		chrome.tabs.create({url: "options.html"});
+	
+	});
+
+   </script>
+  </body>
+</html>
